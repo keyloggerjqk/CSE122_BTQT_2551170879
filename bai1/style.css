@@ -1,0 +1,25 @@
+.khung{
+    background-color: #FFFDE7;
+    border: 1px solid #9E9E9E;
+    width: 700px;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+}
+h1{
+    color: #D40000;
+    background-color: #FFD9E6;
+    font-weight: bold;
+}
+.first , .last{
+    color: #0033CC;
+    font-style: italic;
+}
+.second{
+    color: #D40000 ;
+    font-style: italic;
+}
+hr{
+    width: 55%;
+    color: #0033CC;
+}
