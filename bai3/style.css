@@ -1,0 +1,48 @@
+.nen{
+    background: linear-gradient(#7ec8e3,#0a5c8a);
+    padding: 25px;
+    width: 825px;
+}
+
+.khung{
+    background-color: #FFFFFF;
+    width: 700px;
+    height: auto;
+    overflow: auto;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.tieude{
+    font-weight: bold;
+    text-align: center;
+    color: #0b3d5c;
+}
+
+.anh{
+    width: 240px;
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+
+.gioithieu{
+    color: #FFFFFF;
+    font-style: italic;
+    border-radius: 8px;
+    background-color: #0b3d5c;
+    padding: 15px;
+}
+
+.mota1::first-letter , .mota2::first-letter{
+    color: #0b3d5c;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: justify;
+    margin-right: 9px;
+    line-height: 1;
+    float: left;
+}
+
