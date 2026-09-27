@@ -1,0 +1,29 @@
+h2{
+    color: #1565C0;
+    text-align: center;
+}
+
+.khung{
+    width: 685px;
+}
+
+.anh{
+    width: 685px;
+    height: 430px;
+    border-radius: 8px;
+}
+
+.first::first-letter , .last::first-letter{
+    float:left;
+    color: #C62828;
+    font-size: 40px;
+    line-height: 0.5;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.second{
+    text-align: right;
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
