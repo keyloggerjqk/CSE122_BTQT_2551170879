@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    display: row;
+}
+
+.khung{
+    width: 700px;
+}
+
+h1{
+    color: #C2185B;
+    text-align: center;
+}
+
+p{
+    background-color: #FFC0CB;
+    display: inline;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.hoahong{
+    border-radius: 4px;
+}
+
+.mtgioithieu li{
+    list-style: square;
+}
+
+.mtlienhe li{
+    list-style: circle;
+}
+
+.banquyen{
+    text-decoration: underline;
+    color: #0000EE;
+    text-align: right;
+}
