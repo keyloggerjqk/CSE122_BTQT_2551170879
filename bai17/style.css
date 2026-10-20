@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.form-dang-ky {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #fed7aa;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tieu-de {
+    color: #c2410c;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.mo-ta {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.nhom-nhap {
+    margin-bottom: 20px;
+}
+
+.nhom-nhap label {
+    display: block;
+    font-weight: bold;
+    color: #334155;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.nhom-nhap input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.nhom-nhap input.hop-le {
+    border-color: #16a34a;
+    background-color: #f0fdf4;
+}
+
+.nhom-nhap input.loi {
+    border-color: #dc2626;
+    background-color: #fef2f2;
+}
+
+.thong-bao {
+    font-size: 13px;
+    margin-top: 5px;
+    min-height: 18px;
+}
+
+.thong-bao.hop-le {
+    color: #16a34a;
+}
+
+.thong-bao.loi {
+    color: #dc2626;
+}
+
+.nut-dang-ky {
+    background-color: #c2410c;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nut-dang-ky:hover {
+    background-color: #9a3412;
+}

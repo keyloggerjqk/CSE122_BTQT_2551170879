@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17 - Kiểm tra biểu mẫu bằng JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-dang-ky">
+        <h1 class="tieu-de">Đăng ký tài khoản</h1>
+        <p class="mo-ta">Dữ liệu được kiểm tra bằng JavaScript trước khi gửi.</p>
+
+        <form id="form-dk">
+            <div class="nhom-nhap">
+                <label for="ho-ten">Họ và tên</label>
+                <input type="text" id="ho-ten">
+                <div class="thong-bao" id="tb-ho-ten"></div>
+            </div>
+
+            <div class="nhom-nhap">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <div class="thong-bao" id="tb-email"></div>
+            </div>
+
+            <div class="nhom-nhap">
+                <label for="mat-khau">Mật khẩu</label>
+                <input type="password" id="mat-khau">
+                <div class="thong-bao" id="tb-mat-khau"></div>
+            </div>
+
+            <div class="nhom-nhap">
+                <label for="xac-nhan">Xác nhận mật khẩu</label>
+                <input type="password" id="xac-nhan">
+                <div class="thong-bao" id="tb-xac-nhan"></div>
+            </div>
+
+            <button type="submit" class="nut-dang-ky">Đăng ký</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
