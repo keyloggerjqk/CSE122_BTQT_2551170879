@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #FFFFFF;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 25px;
+}
+
+.anh-minh-hoa {
+    width: 35%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.noi-dung-phai {
+    flex: 1;
+}
+
+.tieu-de-trang {
+    color: #C9A227;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.khoi-noi-dung {
+    border: 2px dashed #E07B00;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.khoi-noi-dung p {
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.khoi-noi-dung p:last-child {
+    margin-bottom: 0;
+}
+
+.tu-nhan-manh {
+    color: #C62828;
+    font-weight: bold;
+}
