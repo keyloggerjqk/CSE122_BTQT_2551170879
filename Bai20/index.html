@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 20 - Hiệu ứng ảnh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <svg style="display: none;">
+        <filter id="wave">
+            <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="1" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="15" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+    </svg>
+
+    <div class="container">
+        <div class="khung-anh">
+            <img src="hoahong.gif" alt="Hoa hồng" id="anh-hoa">
+            <div class="chu-vang">Special For You</div>
+        </div>
+
+        <div class="thanh-nut" id="thanh-nut">
+            <button onclick="apDungHieuUng(this, 'gray')">Gray</button>
+            <button onclick="apDungHieuUng(this, 'xray')">Xray</button>
+            <button onclick="apDungHieuUng(this, 'invert')">Invert</button>
+            <button onclick="apDungHieuUng(this, 'fliph')">FlipH</button>
+            <button onclick="apDungHieuUng(this, 'flipv')">FlipV</button>
+            <button onclick="apDungHieuUng(this, 'glow')">Glow</button>
+            <button onclick="apDungHieuUng(this, 'shadow')">Shadow</button>
+            <button onclick="apDungHieuUng(this, 'bold-shadow')">Bold Shadow</button>
+            <button onclick="apDungHieuUng(this, 'drop-shadow')">DropShadow</button>
+            <button onclick="apDungHieuUng(this, 'blur')">Blur</button>
+            <button onclick="apDungHieuUng(this, 'wave')">Wave</button>
+            <button onclick="apDungHieuUng(this, 'mask')">Mask</button>
+            <button onclick="apDungHieuUng(this, 'alpha')">Alpha</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
