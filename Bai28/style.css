@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa !important;
+}
+
+.khung-trang {
+    max-width: 900px;
+}
+
+.anh-slide {
+    height: 340px;
+    object-fit: cover;
+}
+
+.nen-mo {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 10px 20px;
+    border-radius: 8px;
+    bottom: 25px;
+}
+
+.nen-mo h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.nen-mo p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+.nav-pills .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.tab-content {
+    font-size: 15px;
+    color: #333333;
+    border-color: #dee2e6 !important;
+}
