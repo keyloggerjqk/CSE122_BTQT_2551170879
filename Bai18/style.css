@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.tieu-de-chinh {
+    color: #E65100;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+.tieu-de-chinh span {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.noi-dung-bai {
+    overflow: auto;
+}
+
+.anh-minh-hoa {
+    float: right;
+    max-width: 280px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.doan-mo-dau::first-letter {
+    color: #E65100;
+    font-size: 55px;
+    font-weight: bold;
+    float: left;
+    line-height: 0.8;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.khoi-huong-vi {
+    border: 2px solid #2E7D32;
+    background-color: #f4fbf4;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    clear: both;
+}
+
+.tieu-de-khoi {
+    color: #2E7D32;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.danh-sach-mon {
+    columns: 2;
+    column-gap: 40px;
+    margin: 0;
+    padding-left: 20px;
+    list-style-image: url('icon_list_c.gif');
+}
+
+.danh-sach-mon li {
+    color: #333333;
+    font-size: 15px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    break-inside: avoid;
+}
