@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa !important;
+}
+
+.khung-bang {
+    max-width: 900px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-dark {
+    background-color: #212529 !important;
+}
+
+.table-dark th {
+    background-color: #212529 !important;
+    color: #FFFFFF !important;
+    border-bottom: none;
+    font-weight: 600;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    font-size: 15px;
+    color: #333333;
+}
+
+.badge {
+    font-weight: 500;
+    font-size: 13px;
+    padding: 6px 10px;
+}
