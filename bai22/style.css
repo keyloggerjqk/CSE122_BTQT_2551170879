@@ -1,0 +1,132 @@
+:root {
+    --bg-body: #f1f5f9;
+    --bg-container: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --card-bg: #f8fafc;
+    --card-border: #e2e8f0;
+    --title-color: #2563eb;
+    --border-header: #e2e8f0;
+}
+
+body.toi {
+    --bg-body: #020617;
+    --bg-container: #0f172a;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+    --title-color: #60a5fa;
+    --border-header: #1e293b;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin: 0;
+}
+
+.container {
+    background-color: var(--bg-container);
+    width: 100%;
+    max-width: 800px;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-header);
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cbd5e1;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+input:checked + .slider {
+    background-color: #3b82f6;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 22px 25px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.card h3 {
+    color: var(--title-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.card p {
+    color: var(--text-main);
+    margin: 0;
+    font-size: 14.5px;
+    line-height: 1.5;
+}
+
+.status {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
