@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.dai-tieu-de {
+    background-color: #2E7D32;
+    color: #FFEB3B;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 25px;
+}
+
+.dai-tieu-de h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.khung-trang {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 50px 20px;
+}
+
+.doan-dan-nhap {
+    color: #1b5e20;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.luoi-ky-quan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.the-ky-quan {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.the-ky-quan img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #2E7D32;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.the-ky-quan h2 {
+    color: #1b5e20;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.the-ky-quan p {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
