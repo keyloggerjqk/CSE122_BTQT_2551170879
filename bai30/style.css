@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5 !important;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #212529 !important;
+}
+
+.text-secondary-light {
+    color: #9ca3af !important;
+}
+
+.text-secondary-light:hover {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-size: 14.5px;
+    padding: 10px 16px;
+}
+
+.thanh-tien-do {
+    height: 4px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.content-area {
+    background-color: #eef1f4 !important;
+}
+
+.danh-sach-chuong .list-group-item {
+    background-color: transparent;
+}
+
+.badge {
+    font-size: 12px;
+    font-weight: 600;
+}
