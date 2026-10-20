@@ -1,0 +1,110 @@
+
+
+body {
+    background-image: url('Nen.gif');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.khung-lich {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 30px;
+    width: 420px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.phan-hien-thi {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.chu-nam {
+    color: #C62828;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chu-thang {
+    color: #1565C0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.chu-ngay {
+    color: #C62828;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.chu-thu {
+    color: #1565C0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loi-chao {
+    color: #C62828;
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.khung-nhap-lieu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid #1565C0;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.nhom-nhap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+}
+
+.nhom-nhap label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.nhom-nhap input {
+    width: 100%;
+    padding: 8px 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+#btn-in-lich {
+    background-color: #546e7a;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+    line-height: 1.2;
+}
+
+#btn-in-lich:hover {
+    background-color: #455a64;
+}

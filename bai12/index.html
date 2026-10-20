@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 12 - In lịch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="khung-lich">
+        <div class="phan-hien-thi">
+            <div id="nam" class="chu-nam">2026</div>
+            <div id="thang" class="chu-thang">Tháng 12</div>
+            <div id="ngay" class="chu-ngay">24</div>
+            <div id="thu" class="chu-thu">Thứ hai</div>
+        </div>
+
+        <div id="loi-chao" class="loi-chao">Chào buổi sáng!</div>
+
+        <div class="khung-nhap-lieu">
+            <div class="nhom-nhap">
+                <label>Ngày</label>
+                <input type="number" id="nhap-ngay" value="24" min="1" max="31">
+            </div>
+            <div class="nhom-nhap">
+                <label>Tháng</label>
+                <input type="number" id="nhap-thang" value="12" min="1" max="12">
+            </div>
+            <div class="nhom-nhap">
+                <label>Năm</label>
+                <input type="number" id="nhap-nam" value="2026" min="1900">
+            </div>
+            <button id="btn-in-lich">In<br>lịch</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
