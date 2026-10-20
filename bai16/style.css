@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.ung-dung-todo {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.phan-dau {
+    background-color: #6d28d9;
+    color: #FFFFFF;
+    padding: 20px 25px;
+}
+
+.phan-dau h1 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+}
+
+.phan-dau p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.phan-nhap-lieu {
+    display: flex;
+    padding: 25px;
+    gap: 15px;
+}
+
+.phan-nhap-lieu input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.phan-nhap-lieu button {
+    background-color: #6d28d9;
+    color: #FFFFFF;
+    border: none;
+    padding: 0 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.danh-sach {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.muc-viec {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 1px dashed #ede9fe;
+}
+
+.o-kiem {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #a78bfa;
+    border-radius: 6px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.muc-viec.hoan-thanh .o-kiem {
+    background-color: #6d28d9;
+    border-color: #6d28d9;
+}
+
+.chu-viec {
+    flex: 1;
+    font-size: 16px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.muc-viec.hoan-thanh .chu-viec {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.nut-xoa {
+    background-color: #fde2e2;
+    color: #b91c1c;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.phan-cuoi {
+    padding: 20px 25px;
+    color: #6b7280;
+    font-size: 14px;
+}
